@@ -10,7 +10,7 @@ namespace Tyuiu.RochevYA.Sprint3.Task6.V21.Lib
 
             for (int i = startValue; i <= stopValue; i++)
             {
-                for (int j = 0; j <= i; j++)
+                for (int j = 1; j <= i; j++)
                 {
                     if (i % j == 0)
                     {
