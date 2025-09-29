@@ -14,7 +14,7 @@ namespace Tyuiu.RochevYA.Sprint3.Task1.V22.Lib
                 k++;
             }
             
-            return sum;
+            return Math.Round(sum,3);
         }
     }
 }
