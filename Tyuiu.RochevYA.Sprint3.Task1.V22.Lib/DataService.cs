@@ -10,7 +10,7 @@ namespace Tyuiu.RochevYA.Sprint3.Task1.V22.Lib
             int k = startValue;
             while (k<=stopValue)
             {
-                sum += (Math.Pow(value, k) + 1 / 2) * Math.Cos(k);
+                sum += (Math.Pow(value, k) + 0.5) * Math.Cos(k);
                 k++;
             }
             
